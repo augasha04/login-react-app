@@ -15,11 +15,13 @@ function LogIn() {
               Enter your name:
               <input type="text" value={name} onChange={handleNameChange} />
             </label>
-            <label>
+             <br/>
+            <label id="email">
               Enter your Email:
               <input type="email" />
             </label>
-            <input type="submit" />
+            <br/>
+            <input id="button" type="submit" />
           </div>
         </form>
       );

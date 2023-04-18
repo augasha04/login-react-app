@@ -1,3 +1,6 @@
+body{
+  text-align: center;
+}
 .App {
   text-align: center;
 }
@@ -35,4 +38,30 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+form {
+  display:inline-table;
+  height: 350px;
+  width: 250px;
+  background-color: rgb(0, 0, 0);
+  margin: 2rem;
+  padding: 20px;
+  border: 1px solid #cccccc6e;
+  border-radius: 20px;
+  background-color: #2b2a2965;
+  box-shadow: 0 7px 10px 0 rgba(80, 67, 193, 0.915);
+  position: relative;
+  justify-content: center;
+}
+
+#button{
+  position:relative;
+  margin-top: 200px;
+  background-color: palevioletred;
+}
+
+#email{
+  position: relative;
+  margin-top: 100px;
 }
