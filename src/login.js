@@ -1,20 +1,19 @@
-import React from "react";
+import React, { useState } from "react";
 
-function LogIn(){
+function LogIn() {
     return (
-     <form>
-     <div className = "Name">
-     <label>Enter your name:
-           <input type="text" />
-         </label>
-         <label>Enter your Email:
-           <input type="email" />
-         </label>
-         <button>
-         <input type="submit" />
-         </button>
-     </div>
-    </form>
-   )}; 
+          <div className="Name">
+            <label>
+              Enter your name:
+              <input type="text"/>
+            </label>
+            <label>
+              Enter your Email:
+              <input type="email" />
+            </label>
+            <input type="submit" />
+          </div>
+      );
+    } 
 
 export default LogIn;
