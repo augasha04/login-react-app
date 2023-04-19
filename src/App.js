@@ -5,7 +5,7 @@ import LogIn from './login.js';
 export default function App() {
   return(
   <div>
-    <Greeting/>
+  <Greeting school="Moringa" />
   <LogIn />
   
   </div>

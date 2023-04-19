@@ -4,13 +4,10 @@ import React from 'react';
 //     return <h2>I am a { props.Name }!</h2>;
 //   }
   
-  function Greeting() {
-    // const userName = `${Name}`;
+  function Greeting(prop) {
+    
     return (
-      <>
-          <h1>Welcome to Moringa</h1>
-          {/* console.log${Name}; */}
-      </>
+          <h1>Welcome to {prop.school} :</h1>
     );
   }
   export default Greeting;
